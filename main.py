@@ -1,8 +1,7 @@
 from random import randint
-import emoji
 
 
-# list of play options
+# List of play options
 t = ["Rock", "Paper", "Scissors"]
 
 # Counter for the number of chances
