@@ -18,7 +18,8 @@ while chances < 5:
     computer_move = t[randint(0, 2)]
 
     # Get player's move
-    player_move = input("\nRock, Paper, Scissors? (Type 'exit' to quit): ")
+    player_move = input(
+        "\nRock, Paper, Scissors? (Type 'exit' to quit The Game): ")
 
     # Check if player wants to exit
     if player_move.lower() == "exit":
